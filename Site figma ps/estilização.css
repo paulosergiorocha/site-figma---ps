@@ -1,0 +1,121 @@
+@media screen and (max-width: 1200px){
+	
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color: #ffffff;
+    display: block;
+}
+
+.cabecalho{
+    padding: 2% 15%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 90px;
+    font-size: 2.0rem;
+}
+
+.menu_link{
+    color: #22d4fd;
+    text-decoration: none;
+}
+
+.estrutura{
+    padding: 5% 15%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 80px;
+}
+
+.estrutura_corpo{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    width: auto;
+    gap: 40px;
+}
+
+
+h1{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 2.2rem;
+}
+
+strong{
+    color: #22d4fd;
+    font-size: 2.9rem;
+}
+
+.p1{
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+
+.p2{
+    font-size: 2.0rem;
+}
+
+.p3{
+    font-size: 1.0rem;
+}
+
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    border: 0.5rem solid #22d4fd;
+    color:#ffffff;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 1.0rem 2.0rem;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 5% 5%;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-y: 10%;
+    overflow-x: 10%;
+}
+
+.nome{
+    padding: 2% 5%;
+    background-color:#22d4fd;
+    color:black;
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: 100;
+}
+
+.foto_joana{
+    width: 100%;
+}
+
+div{
+    font-size: 1.5rem;
+    display: flex;
+
+}
